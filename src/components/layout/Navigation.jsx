@@ -62,7 +62,7 @@ const Navigation = ({ currentPage, setCurrentPage }) => {
                     currentPage === item.id
                       ? 'text-blue-500'
                       : 'text-gray-500 hover:text-gray-900'
-                  } block px-4 py-2 text-sm font-medium w-full text-left`}
+                  } block px-4 py-2 text-base font-medium w-full text-left`}
                 >
                   {item.label}
                 </button>
