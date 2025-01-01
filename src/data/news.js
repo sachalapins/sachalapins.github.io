@@ -32,7 +32,7 @@ export const newsItems = [
   {
     date: "July 2021",
     title: "Transfer Learning Paper Published",
-    content: "Paper on automating volcanic seismic phase arrival picking using transfer learning published in JGR: Solid Earth."
+    content: "Paper on automating volcano-seismic phase arrival picking using transfer learning published in JGR: Solid Earth."
   }
 ];
 
