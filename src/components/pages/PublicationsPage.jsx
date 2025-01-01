@@ -43,7 +43,7 @@ const PublicationsPage = () => {
 
   return (
     <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-      <div className="flex justify-between items-center mb-8">
+      <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-8 space-y-4 sm:space-y-0">
         <h1 className="text-4xl font-bold text-gray-900">Publications</h1>
         <a 
           href="https://scholar.google.com/citations?user=QDmoPEQAAAAJ"
@@ -67,6 +67,7 @@ const PublicationsPage = () => {
         </section>
       ))}
     </main>
+
   );
 };
 
