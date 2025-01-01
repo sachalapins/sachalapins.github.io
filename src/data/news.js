@@ -22,7 +22,7 @@ export const newsItems = [
   {
     date: "March 2023",
     title: "Top Downloaded Article Recognition",
-    content: "Paper 'A Little Data Goes a Long Way: Automating Seismic Phase Arrival Picking at Nabro Volcano With Transfer Learning' recognized as a top downloaded article in Journal of Geophysical Research: Solid Earth for works published in 2021."
+    content: "Paper 'A Little Data Goes a Long Way: Automating Seismic Phase Arrival Picking at Nabro Volcano With Transfer Learning' recognised as a top downloaded article in Journal of Geophysical Research: Solid Earth."
   },
   {
     date: "October 2022",
