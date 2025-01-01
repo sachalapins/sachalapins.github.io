@@ -114,7 +114,12 @@ const HomePage = ({ setCurrentPage }) => {
           </div>
           <div className="text-center mt-8">
             <button
-              onClick={() => setCurrentPage('research')}
+              onClick={() => {
+                setCurrentPage('research');
+                setTimeout(() => {
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }, 100); // Ensure page transition is complete before scrolling
+              }}
               className="text-blue-600 hover:text-blue-800 text-lg font-medium inline-flex items-center"
             >
               Explore All Research <ArrowRight className="ml-2 h-5 w-5" />
