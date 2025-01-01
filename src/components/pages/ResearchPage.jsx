@@ -30,7 +30,7 @@ const ResearchPage = () => {
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Deep Learning for Volcano Seismology</h2>
           <div className="bg-white rounded-lg shadow-sm p-6">
             <p className="text-gray-600 mb-6">
-              Developing novel deep learning approaches for detecting and characterizing volcanic earthquakes. 
+              Developing novel deep learning approaches for detecting and characterising volcanic earthquakes. 
               Key innovations include transfer learning techniques for limited training data scenarios and scale-invariant 
               models for diverse volcanic signals.
             </p>
@@ -52,7 +52,7 @@ const ResearchPage = () => {
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Distributed Acoustic Sensing (DAS)</h2>
           <div className="bg-white rounded-lg shadow-sm p-6">
             <p className="text-gray-600 mb-6">
-              Pioneering new approaches for processing and denoising DAS data, with applications in volcano 
+              Pioneering new deep learning approaches for processing and denoising DAS data, with applications in volcano 
               monitoring, carbon capture and storage, and urban subsurface imaging.
             </p>
             <h3 className="text-lg font-semibold text-gray-900 mb-3">Key Publications:</h3>
@@ -70,7 +70,7 @@ const ResearchPage = () => {
 
         {/* Research Theme 3 */}
         <section>
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">Hybrid Seismic Arrays</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">Hybrid DAS, Nodal and Broadband Volcanic Seismic Arrays</h2>
           <div className="bg-white rounded-lg shadow-sm p-6">
             <p className="text-gray-600 mb-6">
               Developing and optimizing strategies for integrating DAS, nodal arrays, and traditional seismic networks
@@ -85,6 +85,10 @@ const ResearchPage = () => {
               <li className="border-l-4 border-blue-500 pl-4">
                 <p className="text-gray-900 font-medium">Characterising volcanic and geothermal processes at Rincón de la Vieja</p>
                 <p className="text-gray-600 text-sm">Royal Society International Exchange Project (2023-2025)</p>
+              </li>
+              <li className="border-l-4 border-blue-500 pl-4">
+                <p className="text-gray-900 font-medium">Towards real-time volcano-seismic monitoring and tracking of magmatic processes</p>
+                <p className="text-gray-600 text-sm">Leverhulme Trust Early Career Fellowship (2022-2025)</p>
               </li>
             </ul>
           </div>
