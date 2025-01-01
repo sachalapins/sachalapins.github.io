@@ -16,7 +16,15 @@ const ResearchHighlight = ({ title, description, link, setCurrentPage }) => (
     <h3 className="font-medium text-gray-900">{title}</h3>
     <p className="text-gray-600 my-4">{description}</p>
     <button
-      onClick={() => setCurrentPage('research')}
+      onClick={() => {
+        setCurrentPage('research');
+        setTimeout(() => {
+          const element = document.querySelector(link);
+          if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+          }
+        }, 100); // Delay to ensure the page has fully rendered
+      }}
       className="inline-flex items-center text-blue-600 hover:text-blue-800"
     >
       Learn More <ArrowRight className="ml-1 h-4 w-4" />
@@ -83,19 +91,19 @@ const HomePage = ({ setCurrentPage }) => {
             <ResearchHighlight
               title="DAS-N2N"
               description="Machine learning Distributed Acoustic Sensing (DAS) signal denoising without clean data."
-              link="/research#das"
+              link="#das"
               setCurrentPage={setCurrentPage}
             />
             <ResearchHighlight
               title="Scale-Invariant Deep Learning Models"
               description="Developing scale-invariant deep learning models to detect and classify diverse volcano-seismic signals."
-              link="/research#deep-learning"
+              link="#deep-learning"
               setCurrentPage={setCurrentPage}
             />
             <ResearchHighlight
               title="Costa Rica Volcanic Arc"
               description="Developing next-generation monitoring techniques using hybrid seismic arrays."
-              link="/research#hybrid-arrays"
+              link="#hybrid-arrays"
               setCurrentPage={setCurrentPage}
             />
           </div>
