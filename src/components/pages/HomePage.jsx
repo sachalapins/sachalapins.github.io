@@ -38,6 +38,14 @@ const HomePage = () => {
                 >
                   Google Scholar <ExternalLink className="ml-1 h-4 w-4" />
                 </a>
+                <a 
+                  href="https://www.linkedin.com/in/sacha-lapins-a8b0a723b" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center text-blue-600 hover:text-blue-800"
+                >
+                  LinkedIn <ExternalLink className="ml-1 h-4 w-4" />
+                </a>
               </div>
             </div>
             <div className="bg-gray-100 p-8 rounded-lg">
