@@ -20,6 +20,11 @@ export const newsItems = [
     content: "Two papers published: Seismic tomography of Nabro caldera (JGR:Solid Earth) and mapping hydrothermal fluids at Uturuncu volcano (GRL)."
   },
   {
+    date: "March 2023",
+    title: "Top Downloaded Article Recognition",
+    content: "Paper 'A Little Data Goes a Long Way: Automating Seismic Phase Arrival Picking at Nabro Volcano With Transfer Learning' recognized as a top downloaded article in Journal of Geophysical Research: Solid Earth for works published in 2021."
+  },
+  {
     date: "October 2022",
     title: "Leverhulme Early Career Fellowship",
     content: "Started 3-year Leverhulme Early Career Fellowship (£118,000) at University of Bristol focusing on real-time volcano-seismic monitoring."
