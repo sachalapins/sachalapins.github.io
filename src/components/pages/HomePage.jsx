@@ -41,8 +41,8 @@ const HomePage = ({ setCurrentPage }) => {
   return (
     <div>
       {/* Hero Section */}
-      <div className="bg-white">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div className="bg-gray-50">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 bg-white rounded-lg shadow-lg">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
             {/* Left Column */}
             <div className="text-center md:text-left md:col-span-2">
