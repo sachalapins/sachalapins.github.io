@@ -26,7 +26,7 @@ const ResearchPage = () => {
       
       <div className="space-y-16">
         {/* Research Theme 1 */}
-        <section>
+        <section id="deep-learning">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Deep Learning for Volcano Seismology</h2>
           <div className="bg-white rounded-lg shadow-sm p-6">
             <p className="text-gray-600 mb-6">
@@ -48,7 +48,7 @@ const ResearchPage = () => {
         </section>
 
         {/* Research Theme 2 */}
-        <section>
+        <section id="das">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Distributed Acoustic Sensing (DAS)</h2>
           <div className="bg-white rounded-lg shadow-sm p-6">
             <p className="text-gray-600 mb-6">
@@ -69,7 +69,7 @@ const ResearchPage = () => {
         </section>
 
         {/* Research Theme 3 */}
-        <section>
+        <section id="hybrid-arrays">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Hybrid DAS, Nodal and Broadband Volcanic Seismic Arrays</h2>
           <div className="bg-white rounded-lg shadow-sm p-6">
             <p className="text-gray-600 mb-6">
