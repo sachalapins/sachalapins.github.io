@@ -33,6 +33,11 @@ const ResearchHighlight = ({ title, description, link, setCurrentPage }) => (
 );
 
 const HomePage = ({ setCurrentPage }) => {
+  const [visibleNewsCount, setVisibleNewsCount] = useState(3);
+  const showMoreNews = () => {
+    setVisibleNewsCount(prevCount => prevCount + 10);
+  };
+  const visibleNewsItems = newsItems.slice(0, visibleNewsCount);
   return (
     <div>
       {/* Hero Section */}
@@ -123,7 +128,7 @@ const HomePage = ({ setCurrentPage }) => {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-8">Recent News</h2>
           <div className="space-y-6">
-            {newsItems.map((item, index) => (
+            {visibleNewsItems.map((item, index) => (
               <NewsCard 
                 key={index}
                 date={item.date}
@@ -132,6 +137,16 @@ const HomePage = ({ setCurrentPage }) => {
               />
             ))}
           </div>
+          {visibleNewsCount < newsItems.length && (
+            <div className="text-center mt-8">
+              <button
+                onClick={showMoreNews}
+                className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-800"
+              >
+                Show Next 10 Items
+              </button>
+            </div>
+          )}
         </div>
       </div>
     </div>
