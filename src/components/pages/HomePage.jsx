@@ -146,9 +146,9 @@ const HomePage = ({ setCurrentPage }) => {
             <div className="text-center mt-8">
               <button
                 onClick={showMoreNews}
-                className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-800"
+                className="text-blue-600 hover:text-blue-800 text-lg font-medium inline-flex items-center"
               >
-                Show Next 10 Items
+                Show Next 10 Items <ArrowRight className="ml-2 h-5 w-5" />
               </button>
             </div>
           )}
