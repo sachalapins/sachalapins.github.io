@@ -11,13 +11,13 @@ const App = () => {
   const renderPage = () => {
     switch (currentPage) {
       case 'home':
-        return <HomePage />;
+        return <HomePage setCurrentPage={setCurrentPage} />;
       case 'research':
         return <ResearchPage />;
       case 'publications':
         return <PublicationsPage />;
       default:
-        return <HomePage />;
+        return <HomePage setCurrentPage={setCurrentPage} />;
     }
   };
 

@@ -11,20 +11,20 @@ const NewsCard = ({ date, title, content }) => (
   </div>
 );
 
-const ResearchHighlight = ({ title, description, link }) => (
+const ResearchHighlight = ({ title, description, link, setCurrentPage }) => (
   <div className="bg-white p-6 rounded-lg shadow-sm">
     <h3 className="font-medium text-gray-900">{title}</h3>
     <p className="text-gray-600 my-4">{description}</p>
-    <a
-      href={link}
+    <button
+      onClick={() => setCurrentPage('research')}
       className="inline-flex items-center text-blue-600 hover:text-blue-800"
     >
       Learn More <ArrowRight className="ml-1 h-4 w-4" />
-    </a>
+    </button>
   </div>
 );
 
-const HomePage = () => {
+const HomePage = ({ setCurrentPage }) => {
   return (
     <div>
       {/* Hero Section */}
@@ -84,25 +84,28 @@ const HomePage = () => {
               title="DAS-N2N"
               description="Machine learning Distributed Acoustic Sensing (DAS) signal denoising without clean data."
               link="/research#das"
+              setCurrentPage={setCurrentPage}
             />
             <ResearchHighlight
               title="Scale-Invariant Deep Learning Models"
               description="Developing scale-invariant deep learning models to detect and classify diverse volcano-seismic signals."
               link="/research#deep-learning"
+              setCurrentPage={setCurrentPage}
             />
             <ResearchHighlight
               title="Costa Rica Volcanic Arc"
               description="Developing next-generation monitoring techniques using hybrid seismic arrays."
               link="/research#hybrid-arrays"
+              setCurrentPage={setCurrentPage}
             />
           </div>
           <div className="text-center mt-8">
-            <a
-              href="/research"
+            <button
+              onClick={() => setCurrentPage('research')}
               className="text-blue-600 hover:text-blue-800 text-lg font-medium inline-flex items-center"
             >
               Explore All Research <ArrowRight className="ml-2 h-5 w-5" />
-            </a>
+            </button>
           </div>
         </div>
       </div>
