@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { ExternalLink, ArrowRight } from 'lucide-react';
 import { newsItems } from '../../data/news';
 import profilePhoto from '../../data/headshot_orange.jpg';
