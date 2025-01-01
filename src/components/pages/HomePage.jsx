@@ -48,8 +48,8 @@ const HomePage = () => {
                   <p className="text-gray-600">Machine learning Distributed Acoustic Sensing (DAS) signal denoising without clean data</p>
                 </li>
                 <li>
-                  <h3 className="font-medium text-gray-900">Transfer Learning for Volcano Seismology</h3>
-                  <p className="text-gray-600">Automating seismic phase arrival picking at volcanoes using limited training data</p>
+                  <h3 className="font-medium text-gray-900">Scale-Invariant Deep Learning Models</h3>
+                  <p className="text-gray-600">Developing scale-invariant deep learning models to detect and classify diverse volcano-seismic signals</p>
                 </li>
                 <li>
                   <h3 className="font-medium text-gray-900">Costa Rica Volcanic Arc</h3>
