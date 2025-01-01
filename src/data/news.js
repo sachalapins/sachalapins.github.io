@@ -1,5 +1,10 @@
 export const newsItems = [
   {
+    date: "December 2024",
+    title: "New Paper: Deep Learning for Downhole Microseismic Detection",
+    content: "Published paper on how well existing deep learning models detect hydraulic-fracturing induced microseismicity using borehole data in Geophysical Journal International."
+  },
+  {
     date: "January 2024",
     title: "EPSRC Grant Success",
     content: "Research Co-investigator on newly funded EPSRC project 'DarkSeis' (£764,434) investigating seismic imaging of the urban subsurface using dark fibre."
@@ -15,6 +20,11 @@ export const newsItems = [
     content: "Awarded £12,000 for research collaboration with UCR-RSN on characterising volcanic and geothermal processes at Rincón de la Vieja using novel instrumentation."
   },
   {
+    date: "August 2023",
+    title: "Founded SeisAI",
+    content: "Launched SeisAI Ltd, a consultancy specialising in AI-driven solutions for seismic and DAS applications."
+  },
+  {
     date: "May 2023",
     title: "Papers Published in Major Journals",
     content: "Two papers published: Seismic tomography of Nabro caldera (JGR:Solid Earth) and mapping hydrothermal fluids at Uturuncu volcano (GRL)."
@@ -25,9 +35,24 @@ export const newsItems = [
     content: "Paper 'A Little Data Goes a Long Way: Automating Seismic Phase Arrival Picking at Nabro Volcano With Transfer Learning' recognised as a top downloaded article in Journal of Geophysical Research: Solid Earth."
   },
   {
+    date: "January 2023",
+    title: "Invited Talk: GNS Science",
+    content: "Spoke to scientists at GNS Science in Lower Hutt, New Zealand, sharing insights on deep learning advancements for volcano-seismic monitoring."
+  },
+  {
     date: "October 2022",
     title: "Leverhulme Early Career Fellowship",
     content: "Started 3-year Leverhulme Early Career Fellowship (£118,000) at University of Bristol focusing on real-time volcano-seismic monitoring."
+  },
+  {
+    date: "December 2021",
+    title: "Dr. Sacha Lapins",
+    content: "Awarded PhD with a thesis on detecting and characterising seismicity related to volcanic and magmatic processes using deep learning and wavelet transforms."
+  },
+  {
+    date: "July 2021",
+    title: "New Postdoctoral Research Role",
+    content: "Started new role as a postdoctoral research associate at University of Bristol, working on deep learning for CCS monitoring with DAS as part of the ACT DigiMon project."
   },
   {
     date: "July 2021",
