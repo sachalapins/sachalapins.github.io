@@ -17,9 +17,9 @@ const HomePage = () => {
       {/* Hero Section */}
       <div className="bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
             {/* Left Column */}
-            <div className="text-center md:text-left">
+            <div className="text-center md:text-left md:col-span-2">
               <h1 className="text-4xl font-bold text-gray-900 mb-4">
                 Dr. Sacha Lapins
               </h1>
@@ -50,15 +50,36 @@ const HomePage = () => {
                 </a>
               </div>
             </div>
-            {/* Right Column */}
+            {/* Right Column (Headshot) */}
             <div className="flex justify-center">
               <img
                 src={profilePhoto}
                 alt="Dr. Sacha Lapins"
-                className="w-48 h-48 rounded-full shadow-lg"
+                className="w-48 rounded-lg shadow-lg"
               />
             </div>
           </div>
+        </div>
+      </div>
+
+      {/* Current Research Highlights */}
+      <div className="bg-gray-100">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+          <h2 className="text-2xl font-semibold text-gray-900 mb-4">Current Research Highlights</h2>
+          <ul className="space-y-4">
+            <li>
+              <h3 className="font-medium text-gray-900">DAS-N2N</h3>
+              <p className="text-gray-600">Machine learning Distributed Acoustic Sensing (DAS) signal denoising without clean data</p>
+            </li>
+            <li>
+              <h3 className="font-medium text-gray-900">Scale-Invariant Deep Learning Models</h3>
+              <p className="text-gray-600">Developing scale-invariant deep learning models to detect and classify diverse volcano-seismic signals</p>
+            </li>
+            <li>
+              <h3 className="font-medium text-gray-900">Costa Rica Volcanic Arc</h3>
+              <p className="text-gray-600">Developing next-generation monitoring techniques using hybrid seismic arrays</p>
+            </li>
+          </ul>
         </div>
       </div>
 
