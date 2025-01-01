@@ -26,7 +26,7 @@ const HomePage = () => {
               </p>
               <p className="text-gray-600 mb-6">
                 Developing novel machine learning and signal processing methods for volcano seismology, 
-                with particular emphasis on enhancing earthquake detection capabilities and understanding 
+                with particular focus on enhancing earthquake detection capabilities and understanding 
                 volcanic processes through the analysis of seismic data.
               </p>
               <div className="flex space-x-4">
