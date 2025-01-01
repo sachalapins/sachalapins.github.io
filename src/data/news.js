@@ -2,26 +2,26 @@ export const newsItems = [
   {
     date: "December 2024",
     title: "New Paper: Deep Learning for Downhole Microseismic Detection",
-    content: "Published paper on how well existing deep learning models detect hydraulic-fracturing induced microseismicity using borehole data in Geophysical Journal International."
+    content: "New paper published in Geophysical Journal International, lead by PhD student Cindy Lim, on how well existing deep learning models detect hydraulic-fracturing induced microseismicity using borehole data."
   },
   {
     date: "January 2024",
     title: "EPSRC Grant Success",
-    content: "Research Co-investigator on newly funded EPSRC project 'DarkSeis' (£764,434) investigating seismic imaging of the urban subsurface using dark fibre."
+    content: "Research co-investigator on newly funded EPSRC project 'DarkSeis' (£764,434) investigating seismic imaging of the urban subsurface using dark fibre."
   },
   {
     date: "January 2024",
-    title: "New Paper: DAS-N2N Published",
+    title: "New Paper: DAS-N2N",
     content: "Paper on weakly-supervised machine learning approach for DAS signal denoising published in Geophysical Journal International."
   },
   {
     date: "August 2023",
     title: "Royal Society International Exchange Grant",
-    content: "Awarded £12,000 for research collaboration with UCR-RSN on characterising volcanic and geothermal processes at Rincón de la Vieja using novel instrumentation."
+    content: "Awarded £12,000 to initiate research collaboration with UCR-RSN to investigate volcanic and geothermal processes at Rincón de la Vieja volcano."
   },
   {
     date: "August 2023",
-    title: "Founded SeisAI",
+    title: "Founded SeisAI Ltd",
     content: "Launched SeisAI Ltd, a consultancy specialising in AI-driven solutions for seismic and DAS applications."
   },
   {
@@ -37,12 +37,12 @@ export const newsItems = [
   {
     date: "January 2023",
     title: "Invited Talk: GNS Science",
-    content: "Spoke to scientists at GNS Science in Lower Hutt, New Zealand, sharing insights on deep learning advancements for volcano-seismic monitoring."
+    content: "Gave talk at GNS Science, Lower Hutt, New Zealand, sharing insights on deep learning advancements for volcano-seismic monitoring."
   },
   {
     date: "October 2022",
     title: "Leverhulme Early Career Fellowship",
-    content: "Started 3-year Leverhulme Early Career Fellowship (£118,000) at University of Bristol focusing on real-time volcano-seismic monitoring."
+    content: "Started 3-year Leverhulme Early Career Fellowship (£118,000) at University of Bristol focusing on deep learning for real-time volcano-seismic monitoring."
   },
   {
     date: "December 2021",
