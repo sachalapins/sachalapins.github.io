@@ -40,9 +40,9 @@ const Navigation = ({ currentPage, setCurrentPage }) => {
           <div className="sm:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-gray-500 hover:text-gray-900 focus:outline-none"
+              className="text-gray-500 hover:text-gray-900 focus:outline-none p-2"
             >
-              ☰
+              <span className="text-3xl">☰</span> {/* Adjust menu button size here */}
             </button>
           </div>
         </div>
