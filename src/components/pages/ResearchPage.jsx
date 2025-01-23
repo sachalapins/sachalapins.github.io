@@ -107,6 +107,33 @@ const ResearchPage = () => {
             </ul>
           </div>
         </section>
+
+        {/* Loose pucks */}
+        <section id="loose-pucks">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">Miscellaneous Research Code and Resources</h2>
+          <div className="bg-white rounded-lg shadow-sm p-6">
+            <p className="text-gray-600 mb-6">
+              A place for code and other research resources that don't directly align with my main research themes or publications. These resources are shared to support the wider seismological research community.
+            </p>
+            <ul className="space-y-4">
+              <li className="border-l-4 border-blue-500 pl-4">
+                <p className="text-gray-900 font-medium">Guide to Calculating b-Values</p>
+                <p className="text-gray-600 text-sm">
+                  A Jupyter Notebook outlining methods for calculating completeness magnitudes and b-values for earthquake catalogues, 
+                  with example code, explanations and visualisations.
+                </p>
+                <a 
+                  href="https://github.com/sachalapins/bvalues" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:text-blue-800 inline-flex items-center text-sm mt-1"
+                >
+                  View GitHub Repository <ExternalLink className="ml-1 h-4 w-4" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
       </div>
     </main>
   );
