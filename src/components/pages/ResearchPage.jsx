@@ -134,6 +134,7 @@ const ResearchPage = () => {
             </ul>
           </div>
         </section>
+        
       </div>
     </main>
   );
