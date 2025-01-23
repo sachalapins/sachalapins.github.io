@@ -20,7 +20,7 @@ const PublicationCard = ({ title, authors, journal, volume, year, doi, github, s
           href={`https://doi.org/${doi}`}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center text-blue-600 hover:text-blue-800 mt-2 text-sm"
+          className="inline-flex items-center h-8 text-blue-600 hover:text-blue-800 mt-2 text-sm"
         >
           DOI: {doi} <ExternalLink className="ml-1 h-4 w-4" />
         </a>
