@@ -55,19 +55,7 @@ const PublicationsPage = () => {
 
   return (
     <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-      {/* <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-8 space-y-4 sm:space-y-0">
-        <h1 className="text-4xl font-bold text-gray-900">Publications</h1>
-        <a 
-          href="https://scholar.google.com/citations?user=QDmoPEQAAAAJ"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center text-blue-600 hover:text-blue-800"
-        >
-          Google Scholar Profile <ExternalLink className="ml-1 h-4 w-4" />
-        </a>
-      </div> */}
-
-      <div className="flex items-center space-x-4 mb-8">
+      <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-8 space-y-4 sm:space-y-0">
         <h1 className="text-4xl font-bold text-gray-900">Publications</h1>
         <a 
           href="https://scholar.google.com/citations?user=QDmoPEQAAAAJ"
@@ -78,6 +66,19 @@ const PublicationsPage = () => {
           Google Scholar Profile <ExternalLink className="ml-1 h-4 w-4" />
         </a>
       </div>
+
+      {/* Use flex container for title / link placement (closer together) */}
+      {/* <div className="flex items-center space-x-4 mb-8">
+        <h1 className="text-4xl font-bold text-gray-900">Publications</h1>
+        <a 
+          href="https://scholar.google.com/citations?user=QDmoPEQAAAAJ"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center text-blue-600 hover:text-blue-800"
+        >
+          Google Scholar Profile <ExternalLink className="ml-1 h-4 w-4" />
+        </a>
+      </div> */}
 
       {years.map(year => (
         <section key={year} className="mb-12">
