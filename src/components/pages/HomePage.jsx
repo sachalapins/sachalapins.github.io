@@ -47,7 +47,7 @@ const HomePage = ({ setCurrentPage }) => {
             {/* Left Column */}
             <div className="text-center md:text-left md:col-span-2">
               <h1 className="text-4xl font-bold text-gray-900 mb-4">
-                Dr. Sacha Lapins
+                Sacha Lapins
               </h1>
               <p className="text-xl text-gray-600 mb-6">
                 Leverhulme Early Career Fellow, University of Bristol

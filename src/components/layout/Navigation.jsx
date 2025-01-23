@@ -16,7 +16,7 @@ const Navigation = ({ currentPage, setCurrentPage }) => {
           {/* Logo/Title and Desktop Navigation */}
           <div className="flex items-center space-x-6">
             <div className="flex-shrink-0">
-              <span className="text-xl font-semibold">Dr. Sacha Lapins</span>
+              <span className="text-xl font-semibold">Sacha Lapins</span>
             </div>
             {/* Desktop Navigation */}
             <div className="hidden sm:flex space-x-4">
