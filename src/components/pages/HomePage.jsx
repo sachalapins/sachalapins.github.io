@@ -80,7 +80,7 @@ const HomePage = ({ setCurrentPage }) => {
             <div className="flex justify-center">
               <img
                 src={profilePhoto}
-                alt="Dr. Sacha Lapins"
+                alt="Sacha Lapins"
                 className="w-48 rounded-lg shadow-lg"
               />
             </div>
