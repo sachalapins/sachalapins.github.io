@@ -30,7 +30,7 @@ const PublicationCard = ({ title, authors, journal, volume, year, doi, github, s
             href={github}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800 hover:bg-blue-200"
+            className="inline-flex items-center h-8 px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800 hover:bg-blue-200"
           >
             Code <ExternalLink className="ml-1 h-4 w-4" />
           </a>
