@@ -64,6 +64,16 @@ const ResearchPage = () => {
                 year="2024"
                 doi="10.1093/gji/ggad460"
               />
+              <li className="border-l-4 border-blue-500 pl-4">
+                <a 
+                  href="https://github.com/sachalapins/DAS-N2N-torch" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:text-blue-800 inline-flex items-center text-sm mt-1"
+                >
+                  View GitHub Repository <ExternalLink className="ml-1 h-4 w-4" />
+                </a>
+              </li>
             </ul>
           </div>
         </section>
