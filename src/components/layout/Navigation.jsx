@@ -5,7 +5,7 @@ const Navigation = ({ currentPage, setCurrentPage }) => {
 
   const navItems = [
     { id: 'home', label: 'Home' },
-    { id: 'research', label: 'Research' },
+    { id: 'research', label: 'Research & Code' },
     { id: 'publications', label: 'Publications' }
   ];
 
