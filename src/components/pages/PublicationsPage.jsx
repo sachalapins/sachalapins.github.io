@@ -2,7 +2,7 @@ import React from 'react';
 import { ExternalLink } from 'lucide-react';
 import { publications } from '../../data/publications';
 
-const PublicationCard = ({ title, authors, journal, volume, year, doi, status = 'published' }) => (
+const PublicationCard = ({ title, authors, journal, volume, year, doi, github, status = 'published' }) => (
   <div className="bg-white p-6 rounded-lg shadow-sm mb-4">
     <h3 className="text-lg font-medium text-gray-900">{title}</h3>
     <p className="text-gray-600 mt-2">{authors}</p>
@@ -23,6 +23,16 @@ const PublicationCard = ({ title, authors, journal, volume, year, doi, status = 
       >
         DOI: {doi} <ExternalLink className="ml-1 h-4 w-4" />
       </a>
+    )}
+    {github && (
+        <a 
+          href={github}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800 hover:bg-blue-200"
+        >
+          Code <ExternalLink className="ml-1 h-4 w-4" />
+        </a>
     )}
   </div>
 );

@@ -51,6 +51,7 @@ export const publications = [
     volume: "236(2)",
     year: "2024",
     doi: "10.1093/gji/ggad460"
+    github: "https://github.com/sachalapins/DAS-N2N-torch"
   },
   // 2023
   {
@@ -78,6 +79,7 @@ export const publications = [
     volume: "126(7)",
     year: "2021",
     doi: "10.1029/2021JB021910"
+    github: "https://github.com/sachalapins/U-GPD"
   },
 
   // 2020
