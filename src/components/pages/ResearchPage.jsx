@@ -109,7 +109,7 @@ const ResearchPage = () => {
         </section>
 
         {/* Loose pucks */}
-        {/* <section id="loose-pucks">
+        <section id="loose-pucks">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Miscellaneous Research Code and Resources</h2>
           <div className="bg-white rounded-lg shadow-sm p-6">
             <p className="text-gray-600 mb-6">
@@ -133,7 +133,7 @@ const ResearchPage = () => {
               </li>
             </ul>
           </div>
-        </section> */}
+        </section>
 
       </div>
     </main>
