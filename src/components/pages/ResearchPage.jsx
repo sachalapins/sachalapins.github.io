@@ -95,6 +95,14 @@ const ResearchPage = () => {
               <li className="border-l-4 border-blue-500 pl-4">
                 <p className="text-gray-900 font-medium">DarkSeis: Seismic Imaging of the Urban Subsurface Using Dark Fibre</p>
                 <p className="text-gray-600 text-sm">EPSRC Project (2024-2026)</p>
+                <a 
+                  href="https://www1.gly.bris.ac.uk/DarkSeis/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:text-blue-800 inline-flex items-center text-sm mt-1"
+                >
+                  View Project Page <ExternalLink className="ml-1 h-4 w-4" />
+                </a>
               </li>
               <li className="border-l-4 border-blue-500 pl-4">
                 <p className="text-gray-900 font-medium">Characterising volcanic and geothermal processes at Rincón de la Vieja</p>
