@@ -14,26 +14,28 @@ const PublicationCard = ({ title, authors, journal, volume, year, doi, github, s
         </span>
       )}
     </p>
-    {doi && (
-      <a 
-        href={`https://doi.org/${doi}`}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="inline-flex items-center text-blue-600 hover:text-blue-800 mt-2 text-sm"
-      >
-        DOI: {doi} <ExternalLink className="ml-1 h-4 w-4" />
-      </a>
-    )}
-    {github && (
+    <div className="flex space-x-4 mt-3">
+      {doi && (
         <a 
-          href={github}
+          href={`https://doi.org/${doi}`}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800 hover:bg-blue-200"
+          className="inline-flex items-center text-blue-600 hover:text-blue-800 mt-2 text-sm"
         >
-          Code <ExternalLink className="ml-1 h-4 w-4" />
+          DOI: {doi} <ExternalLink className="ml-1 h-4 w-4" />
         </a>
-    )}
+      )}
+      {github && (
+          <a 
+            href={github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800 hover:bg-blue-200"
+          >
+            Code <ExternalLink className="ml-1 h-4 w-4" />
+          </a>
+      )}
+    </div>
   </div>
 );
 

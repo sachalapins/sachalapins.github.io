@@ -6,26 +6,28 @@ const PublicationLink = ({ title, authors, journal, year, doi, github }) => (
     <p className="text-gray-900 font-medium">{title}</p>
     <p className="text-gray-600 text-sm">{authors}</p>
     <p className="text-gray-600 text-sm">{journal} ({year})</p>
-    {doi && (
-      <a 
-        href={`https://doi.org/${doi}`} 
-        target="_blank" 
-        rel="noopener noreferrer"
-        className="text-blue-600 hover:text-blue-800 inline-flex items-center text-sm mt-1"
-      >
-        View Publication <ExternalLink className="ml-1 h-4 w-4" />
-      </a>
-    )}
-    {github && (
-      <a 
-        href={github} 
-        target="_blank" 
-        rel="noopener noreferrer"
-        className="text-blue-600 hover:text-blue-800 inline-flex items-center text-sm mt-1"
-      >
-        View GitHub Repository <ExternalLink className="ml-1 h-4 w-4" />
-      </a>
-    )}
+    <div className="flex space-x-4 mt-1">
+      {doi && (
+        <a 
+          href={`https://doi.org/${doi}`} 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-blue-600 hover:text-blue-800 inline-flex items-center text-sm mt-1"
+        >
+          View Publication <ExternalLink className="ml-1 h-4 w-4" />
+        </a>
+      )}
+      {github && (
+        <a 
+          href={github} 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-blue-600 hover:text-blue-800 inline-flex items-center text-sm mt-1"
+        >
+          View GitHub Repository <ExternalLink className="ml-1 h-4 w-4" />
+        </a>
+      )}
+    </div>
   </li>
 );
 
