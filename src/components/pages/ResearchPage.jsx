@@ -1,7 +1,7 @@
 import React from 'react';
 import { ExternalLink } from 'lucide-react';
 
-const PublicationLink = ({ title, authors, journal, year, doi }) => (
+const PublicationLink = ({ title, authors, journal, year, doi, github }) => (
   <li className="border-l-4 border-blue-500 pl-4">
     <p className="text-gray-900 font-medium">{title}</p>
     <p className="text-gray-600 text-sm">{authors}</p>
@@ -14,6 +14,16 @@ const PublicationLink = ({ title, authors, journal, year, doi }) => (
         className="text-blue-600 hover:text-blue-800 inline-flex items-center text-sm mt-1"
       >
         View Publication <ExternalLink className="ml-1 h-4 w-4" />
+      </a>
+    )}
+    {github && (
+      <a 
+        href={github} 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="text-blue-600 hover:text-blue-800 inline-flex items-center text-sm mt-1"
+      >
+        View GitHub Repository <ExternalLink className="ml-1 h-4 w-4" />
       </a>
     )}
   </li>
@@ -42,6 +52,7 @@ const ResearchPage = () => {
                 journal="Journal of Geophysical Research: Solid Earth"
                 year="2021"
                 doi="10.1029/2021JB021910"
+                github="https://github.com/sachalapins/U-GPD"
               />
             </ul>
           </div>
@@ -63,17 +74,8 @@ const ResearchPage = () => {
                 journal="Geophysical Journal International"
                 year="2024"
                 doi="10.1093/gji/ggad460"
+                github="https://github.com/sachalapins/DAS-N2N-torch"
               />
-              <li className="border-l-4 border-blue-500 pl-4">
-                <a 
-                  href="https://github.com/sachalapins/DAS-N2N-torch" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-blue-600 hover:text-blue-800 inline-flex items-center text-sm mt-1"
-                >
-                  View GitHub Repository <ExternalLink className="ml-1 h-4 w-4" />
-                </a>
-              </li>
             </ul>
           </div>
         </section>
