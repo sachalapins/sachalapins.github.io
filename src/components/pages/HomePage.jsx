@@ -50,7 +50,7 @@ const HomePage = ({ setCurrentPage }) => {
                 Sacha Lapins
               </h1>
               <p className="text-xl text-gray-600 mb-6">
-                Leverhulme Early Career Fellow, University of Bristol
+                Royal Society Dorothy Hodgkin Fellow, University of Oxford
               </p>
               <p className="text-gray-600 mb-6">
                 Developing novel machine learning and signal processing methods for volcano seismology, 
